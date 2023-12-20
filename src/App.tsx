@@ -5,7 +5,7 @@ import Contact from './pages/contactPage/ContactPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/AWD3">
       <Routes>
         <Route path="/" element={<HomePage/>}/>
         <Route path="/contact" element={<Contact/>}/>
