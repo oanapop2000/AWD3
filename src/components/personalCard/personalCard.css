@@ -1,0 +1,21 @@
+.home-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 2vh;
+    box-shadow: 0 2vh 4vh rgba(0, 0, 0, 0.1);
+    max-width: 50vw;
+    max-height: 60vh;
+    margin-left: 25vw;
+  }
+  
+  .subtitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+  }
+  
+  .content {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    margin-left: 1vh;
+  }

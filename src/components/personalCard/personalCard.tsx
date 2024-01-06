@@ -1,15 +1,15 @@
 import { Typography } from '@material-ui/core';
-import './homeCard.css';
+import './personalCard.css';
 
 interface Teacher {
   infoAboutTeacher: string;
   contact: string;
 }
 
-interface HomeCardProps {
+interface PersonalCardProps {
   teacher: Teacher;
 }
-const HomeCard: React.FC<HomeCardProps> = ({ teacher }) => {
+const PersonalCard: React.FC<PersonalCardProps> = ({ teacher }) => {
   return (
     <div className="home-card">
       <h1 className='subtitle'>About me</h1>
@@ -39,4 +39,4 @@ const HomeCard: React.FC<HomeCardProps> = ({ teacher }) => {
   );
 };
 
-export default HomeCard;
+export default PersonalCard;

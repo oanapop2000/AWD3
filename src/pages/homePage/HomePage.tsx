@@ -1,9 +1,9 @@
 import React from 'react';
-import HomeCard from '../../components/homeCard/HomeCard';
-import Header from '../../components/header/Header';
-import './HomePage.css';
+import Header from '../../components/header/header';
+import './homePage.css';
 import imageToAdd from "../homePage/profilePicture2.jpg";
 import { Stack } from '@mui/material';
+import HomeCard from '../../components/homeCard/homeCard';
 
 const Home: React.FC = () => {
 
@@ -14,10 +14,10 @@ const Home: React.FC = () => {
 
   return (
     <div>
-      <Header/>
+      <Header />
       <Stack className='stack' direction="row" spacing={2}>
-        <img src={imageToAdd} alt="Image" className='image'/>
-        <h1 className = "title">Welcome to my website!</h1>
+        <img src={imageToAdd} alt="Image" className='image' />
+        <h1 className="title">Welcome to my website!</h1>
       </Stack>
       <HomeCard teacher={teacherData} />
     </div>
