@@ -9,27 +9,20 @@ const styles = makeStyles({
     flexGrow: 1,
     cursor: "pointer",
   },
-  link: {
-    textDecoration: "none",
-    color: "white",
-    fontSize: "20px",
-    marginLeft: 20,
-    "&:hover": {
-      color: "yellow",
-      borderBottom: "1px solid white",
-    },
-  },
   button: {
     textDecoration: "none",
     color: "white",
     fontSize: "14px",
-    marginLeft: 20,
-    padding: 0,
+    padding: "0px 0px",
     "&:hover": {
       color: "yellow",
       borderBottom: "1px solid white",
     },
   },
+  link:{
+    textDecoration: "none",
+    color: "black",
+  }
 });
 
 export default styles;

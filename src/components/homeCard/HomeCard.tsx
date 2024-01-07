@@ -12,16 +12,6 @@ interface HomeCardProps {
 const HomeCard: React.FC<HomeCardProps> = ({ teacher }) => {
   return (
     <div className="home-card">
-      <h1 className='subtitle'>About me</h1>
-      <p className='content'>{teacher.infoAboutTeacher}</p>
-      <Typography component="div">
-        <ul>
-          <li className='content'>October, 2021: member of EEA project.</li>
-          <li className='content'>October, 2019: became lecturer at Computer Science Department at “Babeş-Bolyai” University, Cluj-Napoca, Romania.</li>
-          <li className='content'>October, 2018: graduated the Ph.D. research and became doctor at “Babeş-Bolyai” University, Cluj-Napoca, Romania.</li>
-          <li className='content'>July, 2014: graduated Computer Science at “Babeş-Bolyai” University, Cluj-Napoca, Romania.</li>
-        </ul>
-      </Typography>
       <h1 className='subtitle'>Current teaching</h1>
       <Typography component="div">
         <ul>
@@ -33,6 +23,12 @@ const HomeCard: React.FC<HomeCardProps> = ({ teacher }) => {
       <Typography component="div">
         <ul>
           <li className='content'>{teacher.contact}</li>
+        </ul>
+      </Typography>
+      <h1 className='subtitle'>Research</h1>
+      <Typography component="div">
+        <ul>
+          <li className='content'>My main focus in research is on concepts of artificial intelligence, including fields like recommender systems and AI in healthcare.</li>
         </ul>
       </Typography>
     </div>
