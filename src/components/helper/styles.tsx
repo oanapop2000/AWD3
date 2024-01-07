@@ -19,6 +19,17 @@ const styles = makeStyles({
       borderBottom: "1px solid white",
     },
   },
+  button: {
+    textDecoration: "none",
+    color: "white",
+    fontSize: "14px",
+    marginLeft: 20,
+    padding: 0,
+    "&:hover": {
+      color: "yellow",
+      borderBottom: "1px solid white",
+    },
+  },
 });
 
 export default styles;

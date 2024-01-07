@@ -20,6 +20,7 @@ function Navbar() {
   };
   const handleClose = () => {
     setAnchorEl(null);
+
   };
 
   const classes = styles();
@@ -42,10 +43,7 @@ function Navbar() {
             Contact
           </Link>
           <Button
-            id="demo-positioned-button"
-            aria-controls={open ? 'demo-positioned-menu' : undefined}
-            aria-haspopup="true"
-            aria-expanded={open ? 'true' : undefined}
+            className={classes.button}
             onClick={handleClick}
           >
             Teaching
@@ -65,9 +63,8 @@ function Navbar() {
               horizontal: 'left',
             }}
           >
-            <MenuItem onClick={handleClose}>Profile</MenuItem>
-            <MenuItem onClick={handleClose}>My account</MenuItem>
-            <MenuItem onClick={handleClose}>Logout</MenuItem>
+            <MenuItem onClick={handleClose}><Link to='/oop' className='content'>Object oriented programming</Link></MenuItem>
+            <MenuItem onClick={handleClose}><Link to='/ai' className='content'>Artificial intelligence</Link></MenuItem>
           </Menu>
         </div>
       </Toolbar>
