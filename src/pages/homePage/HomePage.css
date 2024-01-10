@@ -1,14 +1,14 @@
-.title {
+.title-home-page {
     margin: 10vh 0vw 5vh 40vw;
     font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
 }
 
-.image {
+.image-home-page {
     width: 10vw;
     height: 20vh;
 }
 
-.stack {
+.stack-home-page {
     margin: 5vh 0vw 3vh 35vw;
 }

@@ -1,5 +1,7 @@
+import { Stack } from '@mui/material';
 import ContactCard from '../../components/contactCard/contactCard';
 import Header from '../../components/header/header';
+import './contactPage.css';
 
 function ContactPage() {
   const teacherData = {
@@ -8,7 +10,7 @@ function ContactPage() {
   };
 
   return (
-    <div className="App">
+    <div className='contact-page'>
       <Header />
       <ContactCard teacher={teacherData} />
     </div>

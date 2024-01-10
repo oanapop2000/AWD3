@@ -12,30 +12,30 @@ interface TeachingCardProps {
 }
 const AICard: React.FC<TeachingCardProps> = ({ teacher }) => {
   return (
-    <div className="contact-card">
-      <h1 className='ai-title'>Artificial intelligence</h1>
-      <h1 className='subtitle'>Schedule</h1>
+    <div className="ai-card">
+      <h1 className='title-ai-card'>Artificial intelligence</h1>
+      <h1 className='subtitle-ai-card'>Schedule</h1>
       <Typography component="div">
         <ul>
           {teacher.schedule.map(s => {
             return (
-              <li className='content'>{s}</li>
+              <li className='content-ai-card'>{s}</li>
             )
           })}
         </ul>
       </Typography>
-      <h1 className='subtitle'>Teams code</h1>
+      <h1 className='subtitle-ai-card'>Teams code</h1>
       <Typography component="div">
         <ul>
-          <li className='content'>{teacher.teamsCode}</li>
+          <li className='content-ai-card'>{teacher.teamsCode}</li>
         </ul>
       </Typography>
-      <h1 className='subtitle'>Evaluation</h1>
+      <h1 className='subtitle-ai-card'>Evaluation</h1>
       <Typography component="div">
         <ul>
           {teacher.evaluation.map(s => {
             return (
-              <li className='content'>{s}</li>
+              <li className='content-ai-card'>{s}</li>
             )
           })}
         </ul>

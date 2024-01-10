@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Contact from './pages/contactPage/contactPage';
 import Personal from './pages/personalPage/personalPage';
 import HomePage from './pages/homePage/homePage';
-import OOP from './pages/subjectsPage/oopPage';
-import AI from './pages/subjectsPage/aiPage';
+import OOP from './pages/subjectsPage/oopPage/oopPage';
+import AI from './pages/subjectsPage/aiPage/aiPage';
 
 function App() {
   return (

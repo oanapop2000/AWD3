@@ -15,9 +15,9 @@ const Home: React.FC = () => {
   return (
     <div>
       <Header />
-      <Stack className='stack' direction="row" spacing={2}>
-        <img src={imageToAdd} alt="Image" className='image' />
-        <h1 className="title">Welcome to my website!</h1>
+      <Stack className='stack-home-page' direction="row" spacing={2}>
+        <img src={imageToAdd} alt="Image" className='image-home-page' />
+        <h1 className="title-home-page">Welcome to my website!</h1>
       </Stack>
       <HomeCard teacher={teacherData} />
     </div>

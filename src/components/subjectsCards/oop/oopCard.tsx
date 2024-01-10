@@ -12,30 +12,30 @@ interface TeachingCardProps {
 }
 const OOPCard: React.FC<TeachingCardProps> = ({ teacher }) => {
   return (
-    <div className="contact-card">
-    <h1 className='ai-title'>Oriented Object Programming</h1>
-    <h1 className='subtitle'>Schedule</h1>
+    <div className="oop-card">
+    <h1 className='title-oop-card'>Oriented Object Programming</h1>
+    <h1 className='subtitle-oop-card'>Schedule</h1>
     <Typography component="div">
       <ul>
         {teacher.schedule.map(s => {
           return (
-            <li className='content'>{s}</li>
+            <li className='content-oop-card'>{s}</li>
           )
         })}
       </ul>
     </Typography>
-    <h1 className='subtitle'>Teams code</h1>
+    <h1 className='subtitle-oop-card'>Teams code</h1>
     <Typography component="div">
       <ul>
-        <li className='content'>{teacher.teamsCode}</li>
+        <li className='content-oop-card'>{teacher.teamsCode}</li>
       </ul>
     </Typography>
-    <h1 className='subtitle'>Evaluation</h1>
+    <h1 className='subtitle-oop-card'>Evaluation</h1>
     <Typography component="div">
       <ul>
         {teacher.evaluation.map(s => {
           return (
-            <li className='content'>{s}</li>
+            <li className='content-oop-card'>{s}</li>
           )
         })}
       </ul>

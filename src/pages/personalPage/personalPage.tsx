@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../../components/header/header';
 import PersonalCard from '../../components/personalCard/personalCard';
+import './personalPage.css';
 
 const Personal: React.FC = () => {
   const teacherData = {
@@ -8,7 +9,7 @@ const Personal: React.FC = () => {
     contact: "oana.pop@ubbcluj.ro"
   };
   return (
-    <div>
+    <div className='personal-page'>
       <Header />
       <PersonalCard teacher={teacherData} />
     </div>

@@ -1,4 +1,4 @@
-.contact-card {
+.ai-card {
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -7,22 +7,22 @@
     max-width: 50vw;
     max-height: 60vh;
     margin-left: 25vw;
-    margin-top: 20vh;
+    overflow: auto;
 }
 
-.ai-title {
+.title-ai-card {
     font-family: 'Times New Roman', Times, serif;
     font-size:xx-large;
     text-align: center;
 
 }
 
-.subtitle {
+.subtitle-ai-card {
     font-family: 'Times New Roman', Times, serif;
     font-size: x-large;
   }
 
-.content {
+.content-ai-card {
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
     margin-left: 1vh;

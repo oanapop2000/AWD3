@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../../components/header/header';
-import AICard from '../../components/subjectsCards/ai/aiCard';
-
+import Header from '../../../components/header/header';
+import AICard from '../../../components/subjectsCards/ai/aiCard';
+import './aiPage.css';
 
 const AI: React.FC = () => {
   const teacherData = {
@@ -10,7 +10,7 @@ const AI: React.FC = () => {
     evaluation : ['60% - Laboratories mark', '30% - Final exam (20% Written + 10% Practical exam)', '10% - Bonus points']
   };
   return (
-    <div>
+    <div className='ai-page'>
       <Header />
       <AICard teacher={teacherData} />
     </div>

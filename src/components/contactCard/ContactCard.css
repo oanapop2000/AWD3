@@ -6,16 +6,15 @@
   box-shadow: 0 2vh 4vh rgba(0, 0, 0, 0.1);
   max-width: 50vw;
   max-height: 60vh;
-  margin-left: 25vw;
-  margin-top: 20vh;
+  overflow: auto;
 }
 
-.subtitle {
+.subtitle-contact-card {
   font-family: 'Times New Roman', Times, serif;
   font-size: x-large;
 }
 
-.content {
+.content-contact-card {
   font-family: 'Times New Roman', Times, serif;
   font-size: large;
   margin-left: 1vh;

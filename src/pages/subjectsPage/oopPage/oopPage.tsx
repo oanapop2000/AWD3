@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../../components/header/header';
-import OOPCard from '../../components/subjectsCards/oop/oopCard';
-
+import Header from '../../../components/header/header';
+import OOPCard from '../../../components/subjectsCards/oop/oopCard';
+import './oopPage.css';
 
 const OOP: React.FC = () => {
   const teacherData = {
@@ -10,7 +10,7 @@ const OOP: React.FC = () => {
     evaluation : ['60% - Laboratories mark', '30% - Final exam (20% Written + 10% Practical exam)', '10% - Bonus points']
   };
   return (
-    <div>
+    <div className='oop-page'>
       <Header />
       <OOPCard teacher={teacherData} />
 
