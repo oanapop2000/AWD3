@@ -1,14 +1,43 @@
 .title-home-page {
-    margin: 10vh 0vw 5vh 40vw;
+    margin: 10vh 0vw 5vh 0;
     font-family: 'Times New Roman', Times, serif;
-    font-size: xx-large;
+    font-size: 4vw;
 }
 
 .image-home-page {
-    width: 10vw;
-    height: 20vh;
+    width: 20vw; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 2vw;
 }
 
 .stack-home-page {
-    margin: 5vh 0vw 3vh 35vw;
+    display: flex;
+    align-items: center;
+    margin: 5vh 0 3vh 5vw; 
+}
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+  /* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .stack-home-page {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        align-items: flex-start; /* Align items to the start on smaller screens */
+        margin: 5vh 0 3vh 5vw; /* Adjust margins */
+    }
+
+    .image-home-page {
+        width: 100%; /* Make the image take full width on smaller screens */
+        margin-right: 0; /* Remove margin on smaller screens */
+        margin-bottom: 2vh; /* Add some spacing between image and title */
+    }
+
+    .title-home-page {
+        margin: 5vh 0 3vh 0; /* Adjust margins */
+    }
 }

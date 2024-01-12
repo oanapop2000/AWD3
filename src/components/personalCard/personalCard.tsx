@@ -11,7 +11,8 @@ interface PersonalCardProps {
 }
 const PersonalCard: React.FC<PersonalCardProps> = ({ teacher }) => {
   return (
-    <div className="personal-card">
+    <div className='personal-container'>
+<div className="personal-card">
       <h1 className='subtitle-personal-card'>About me</h1>
       <p className='content-personal-card'>{teacher.infoAboutTeacher}</p>
       <Typography component="div">
@@ -23,6 +24,8 @@ const PersonalCard: React.FC<PersonalCardProps> = ({ teacher }) => {
         </ul>
       </Typography>
     </div>
+    </div>
+    
   );
 };
 

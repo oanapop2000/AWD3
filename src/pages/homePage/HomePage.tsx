@@ -13,7 +13,7 @@ const Home: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className='home-page'>
       <Header />
       <Stack className='stack-home-page' direction="row" spacing={2}>
         <img src={imageToAdd} alt="Image" className='image-home-page' />

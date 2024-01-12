@@ -14,6 +14,7 @@ interface ContactCardProps {
 }
 const ContactCard: React.FC<ContactCardProps> = ({ teacher }) => {
   return (
+    <div className='contact-container'>
     <div className="contact-card">
       <h1 className='subtitle-contact-card'>Email</h1>
       <Stack className='content-contact-card' direction="row" spacing={1}>
@@ -31,6 +32,8 @@ const ContactCard: React.FC<ContactCardProps> = ({ teacher }) => {
         <span>Monday, 17:00-19:00</span>
       </Stack>
     </div>
+    </div>
+
   );
 };
 

@@ -1,4 +1,3 @@
-import { Stack } from '@mui/material';
 import ContactCard from '../../components/contactCard/contactCard';
 import Header from '../../components/header/header';
 import './contactPage.css';

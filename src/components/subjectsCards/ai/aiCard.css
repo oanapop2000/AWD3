@@ -1,14 +1,23 @@
-.ai-card {
+.ai-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ai-card {
     background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 2vh;
-    box-shadow: 0 2vh 4vh rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
     max-width: 50vw;
     max-height: 60vh;
-    margin-left: 25vw;
+    width: 100%;
     overflow: auto;
-}
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 50vw;
+    max-height: 60vh;
+  }
 
 .title-ai-card {
     font-family: 'Times New Roman', Times, serif;

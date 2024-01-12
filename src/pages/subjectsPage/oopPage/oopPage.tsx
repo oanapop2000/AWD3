@@ -12,8 +12,7 @@ const OOP: React.FC = () => {
   return (
     <div className='oop-page'>
       <Header />
-      <OOPCard teacher={teacherData} />
-
+      <OOPCard  teacher={teacherData} />
     </div>
   );
 };
