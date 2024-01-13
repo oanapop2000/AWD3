@@ -19,7 +19,7 @@ const styles = makeStyles({
       borderBottom: "1px solid white",
     },
   },
-  link:{
+  link: {
     textDecoration: "none",
     color: "black",
   }

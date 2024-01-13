@@ -1,39 +1,39 @@
 .ai-container {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .ai-card {
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 50vw;
-    max-height: 60vh;
-    width: 100%;
-    overflow: auto;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    max-width: 50vw;
-    max-height: 60vh;
-  }
+.ai-card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 50vw;
+  max-height: 60vh;
+  width: 100%;
+  overflow: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 50vw;
+  max-height: 60vh;
+}
 
 .title-ai-card {
-    font-family: 'Times New Roman', Times, serif;
-    font-size:xx-large;
-    text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+  text-align: center;
 
 }
 
 .subtitle-ai-card {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: x-large;
-  }
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+}
 
 .content-ai-card {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: large;
-    margin-left: 1vh;
-    color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  margin-left: 1vh;
+  color: black;
 }

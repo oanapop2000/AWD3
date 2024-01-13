@@ -15,23 +15,23 @@ interface ContactCardProps {
 const ContactCard: React.FC<ContactCardProps> = ({ teacher }) => {
   return (
     <div className='contact-container'>
-    <div className="contact-card">
-      <h1 className='subtitle-contact-card'>Email</h1>
-      <Stack className='content-contact-card' direction="row" spacing={1}>
-        <EmailIcon />
-        <span>oana.pop@ubbcluj.ro</span>
-      </Stack>
-      <h1 className='subtitle-contact-card'>Current office</h1>
-      <Stack className='content-contact-card' direction="row" spacing={1}>
-        <BusinessIcon />
-        <span>Office No. 925, Teodor Mihali Street (former Nicolae Pascaly Street), No.58-60, 400591, Cluj Napoca, Romania</span>
-      </Stack>
-      <h1 className='subtitle-contact-card'>Schedule for Q&As</h1>
-      <Stack className='content-contact-card' direction="row" spacing={1}>
-        <ScheduleIcon />
-        <span>Monday, 17:00-19:00</span>
-      </Stack>
-    </div>
+      <div className="contact-card">
+        <h1 className='subtitle-contact-card'>Email</h1>
+        <Stack className='content-contact-card' direction="row" spacing={1}>
+          <EmailIcon />
+          <span>oana.pop@ubbcluj.ro</span>
+        </Stack>
+        <h1 className='subtitle-contact-card'>Current office</h1>
+        <Stack className='content-contact-card' direction="row" spacing={1}>
+          <BusinessIcon />
+          <span>Office No. 925, Teodor Mihali Street (former Nicolae Pascaly Street), No.58-60, 400591, Cluj Napoca, Romania</span>
+        </Stack>
+        <h1 className='subtitle-contact-card'>Schedule for Q&As</h1>
+        <Stack className='content-contact-card' direction="row" spacing={1}>
+          <ScheduleIcon />
+          <span>Monday, 17:00-19:00</span>
+        </Stack>
+      </div>
     </div>
 
   );
