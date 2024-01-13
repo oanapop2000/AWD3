@@ -4,11 +4,13 @@ const styles = makeStyles({
   navlinks: {
     display: "flex",
     marginLeft: "auto",
-    alignItems: "center",
   },
   logo: {
     flexGrow: 1,
-    cursor: "pointer",
+    alignItems: "center",
+  },
+  logoImage: {
+    maxWidth: '100%',
   },
   button: {
     textDecoration: "none",

@@ -63,9 +63,9 @@ function Navbar() {
     <AppBar position="static">
       <CssBaseline />
       <Toolbar>
-        <Typography variant="h4" className={classes.logo}>
-          <img src={imageToAdd} alt="Image" />
-        </Typography>
+        <div className={classes.logo}>
+          <img src={imageToAdd} alt="Image" className={classes.logoImage}/>
+        </div>
         <div className={classes.navlinks}>
           <Button>
 
