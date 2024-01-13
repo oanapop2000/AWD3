@@ -18,9 +18,9 @@ const OOPCard: React.FC<TeachingCardProps> = ({ teacher }) => {
         <h1 className='subtitle-oop-card'>Schedule</h1>
         <Typography component="div">
           <ul>
-            {teacher.schedule.map(s => {
+            {teacher.schedule.map((s, index) => {
               return (
-                <li className='content-oop-card'>{s}</li>
+                <li key={index} className='content-oop-card'>{s}</li>
               )
             })}
           </ul>
@@ -34,9 +34,9 @@ const OOPCard: React.FC<TeachingCardProps> = ({ teacher }) => {
         <h1 className='subtitle-oop-card'>Evaluation</h1>
         <Typography component="div">
           <ul>
-            {teacher.evaluation.map(s => {
+            {teacher.evaluation.map((s, index) => {
               return (
-                <li className='content-oop-card'>{s}</li>
+                <li key={index} className='content-oop-card'>{s}</li>
               )
             })}
           </ul>

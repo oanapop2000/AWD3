@@ -18,9 +18,9 @@ const AICard: React.FC<TeachingCardProps> = ({ teacher }) => {
         <h1 className='subtitle-ai-card'>Schedule</h1>
         <Typography component="div">
           <ul>
-            {teacher.schedule.map(s => {
+            {teacher.schedule.map((s, index) => {
               return (
-                <li className='content-ai-card'>{s}</li>
+                <li key={index} className='content-ai-card'>{s}</li>
               )
             })}
           </ul>
@@ -34,9 +34,9 @@ const AICard: React.FC<TeachingCardProps> = ({ teacher }) => {
         <h1 className='subtitle-ai-card'>Evaluation</h1>
         <Typography component="div">
           <ul>
-            {teacher.evaluation.map(s => {
+            {teacher.evaluation.map((s, index) => {
               return (
-                <li className='content-ai-card'>{s}</li>
+                <li key={index} className='content-ai-card'>{s}</li>
               )
             })}
           </ul>

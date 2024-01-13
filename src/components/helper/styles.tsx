@@ -3,7 +3,8 @@ import { makeStyles } from "@material-ui/core";
 const styles = makeStyles({
   navlinks: {
     display: "flex",
-    marginLeft: 10,
+    marginLeft: "auto",
+    alignItems: "center",
   },
   logo: {
     flexGrow: 1,
